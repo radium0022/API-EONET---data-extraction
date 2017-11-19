@@ -10,13 +10,13 @@ The script is available here (.py and jupyter file):
 
 It does the following task:
 
-1. Sets up a SQLite database to hold the data
+1. Sets up a SQLite database to hold the data.
 
 2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API for the last month. 
 
-3. Saves the data to the database
+3. Saves the data to the database.
 
-4. Compiles the data into an excel spreadsheet
+4. Compiles the data into an excel spreadsheet.
 
 5. Emails the spreadsheet to an email address specified either as a command-line parameter.
 
@@ -70,6 +70,6 @@ from email import encoders
 
 * If I had more time, I would use functions and or class to give more structure to the code and to make it easier to use (e.g. for data extraction from the API). 
 
-* I would create additional insights in the report (e.g. plotting the events on a map with basemap or folium using the coordinates)
+* I would create additional insights in the report (e.g. plotting the events on a map with basemap or folium using the coordinates).
 
 * I would automate the running of the script on a monthly basis, for example using the software Cron in Linux.
