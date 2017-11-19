@@ -2,7 +2,7 @@
 
 ## A. Project description & usage
 
-The python script available here (python and jupyter file): 
+The script is available here (python and jupyter file): 
 
 * https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.py 
 
