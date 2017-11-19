@@ -2,11 +2,11 @@
 
 ## A. Project description & usage
 
-The python script available at this link does the following task:
+The python script available here: https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.py does the following task:
 
 1. Sets up a SQLite database to hold the data
 
-2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API from the last month (i.e. events terminated during the last month). 
+2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API for the last month (i.e. events terminated during the last month). 
 
 3. Saves the data to the database
 
