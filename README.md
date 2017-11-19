@@ -22,9 +22,11 @@ It does the following task:
 
 ## B. Installation
 
-In order to be run the script, you need:
+In order to be run the script:
 
-* Python 3 or later
+* You need Python 3 or later
+
+* The email address of the recipient has to be specified in the variable "email_recepient"
 
 * The below libraries have to be installed
 
@@ -53,9 +55,6 @@ from email.utils import formatdate
 
 from email import encoders
 ```
-
-* The email address of the recipient has to be specified in the variable "email_recepient"
-
 
 ## C. Critique & limitations
 
