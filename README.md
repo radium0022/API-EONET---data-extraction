@@ -12,7 +12,7 @@ It does the following task:
 
 1. Sets up a SQLite database to hold the data
 
-2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API for the last month (i.e. events terminated during the last month). 
+2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API for the last month. 
 
 3. Saves the data to the database
 
