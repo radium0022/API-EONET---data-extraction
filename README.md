@@ -58,9 +58,9 @@ from email import encoders
 
 ## C. Critique & limitations
 
-* It has been difficult to transform the data form the EONET API as the JSON file was containing nested dictionaries and list. It needed me some manual work and cleaning to transform the data into a list of list (see point 2.3 in the script), and hence to upload it into the SQLite database.
+* It has been difficult to transform the data form the EONET API as the JSON file was containing nested dictionaries and lists. It needed me some manual work to cleaning and transform the data into a list of list (see point 2.3 in the script), and hence to upload it into the SQLite database.
 
-* The final output only take into consideration terminated events. In other words, these events have started in October (see column date in the database) and are finished now (see column closed in the database). It might also be of interest to  monitor open events in another report, on a weekly basis for example.
+* The final output only take into consideration closed events. In other words, these events have started in October (see column "date" in the database) and are finished now (see column "closed" in the database). It might also be of interest to  monitor open events in another report, on a weekly basis for example.
 
 * This script is only working if the sender has a gmail account. It might be useful to create a script working with other kind of email account. 
 
