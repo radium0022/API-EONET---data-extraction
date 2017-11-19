@@ -20,7 +20,7 @@ In order to be run the script:
 
 * The the below python libraries have to be installed
 
-'''
+```
 
 import json
 
@@ -46,7 +46,8 @@ from email.utils import formatdate
 
 from email import encoders
 
-'''
+```
+
 
 * The email address of the recepient has te be specified in the variable "email_recepient"
 
