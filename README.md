@@ -2,7 +2,13 @@
 
 ## A. Project description & usage
 
-The python script available here: https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.py does the following task:
+The python script available here (python and jupyter file): 
+
+* https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.py 
+
+* https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.ipynb
+
+It does the following task:
 
 1. Sets up a SQLite database to hold the data
 
@@ -48,19 +54,23 @@ from email.utils import formatdate
 from email import encoders
 ```
 
-* The email address of the recepient has te be specified in the variable "email_recepient"
+* The email address of the recipient has to be specified in the variable "email_recepient"
 
 
 ## C. Critique & limitations
 
-* It has been difficult to transform the data form the EONET API as the JSON file was containing nested dictionnaries and list. It needed me some manual work and cleaning to tranform the data into a list of list (see point 2.3 in the script), and hence to upload it into the SQLite database.
+* It has been difficult to transform the data form the EONET API as the JSON file was containing nested dictionaries and list. It needed me some manual work and cleaning to transform the data into a list of list (see point 2.3 in the script), and hence to upload it into the SQLite database.
 
-* The final output only take into consideration terminated events. In other words, these events have started in October (see column date in the database) and are finished now (see column closed in the database). It might also be of interest to  monithor open events in another report, on a weekly basis for example.
+* The final output only take into consideration terminated events. In other words, these events have started in October (see column date in the database) and are finished now (see column closed in the database). It might also be of interest to  monitor open events in another report, on a weekly basis for example.
 
 * This script is only working if the sender has a gmail account. It might be useful to create a script working with other kind of email account. 
 
-* The transfer of the API data to the SQLite data base might be risky (see point 3 in the script). In case the data structure in the API is changing, a data quality check should be run in order to verify that the output is valid. 
+* The transfer of the API data to the SQLite database might be risky (see point 3 in the script). In case the data structure in the API is changing, a data quality check should be run in order to verify that the output is valid. 
 
 ## D. To go further
 
+* If I had more time, I would use functions and or class to give more structure to the code and to make it easier to use (e.g. for data extraction from the API). 
 
+* I would create additional insights in the report (e.g. plotting the events on a map with basemap or folium using the coordinates)
+
+* I would automate the running of the script on a monthly basis, for example using the software Cron in Linux.
