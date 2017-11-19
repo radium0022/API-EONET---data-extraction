@@ -21,18 +21,31 @@ In order to be run the script:
 * The the below python libraries have to be installed
 
 '''
+
 import json
+
 import requests
+
 import sqlite3
+
 import pandas as pd
+
 from datetime import datetime, timedelta
+
 from dateutil.relativedelta import relativedelta
+
 import smtplib,ssl
+
 from email.mime.multipart import MIMEMultipart
+
 from email.mime.base import MIMEBase
+
 from email.mime.text import MIMEText
+
 from email.utils import formatdate
+
 from email import encoders
+
 '''
 
 * The email address of the recepient has te be specified in the variable "email_recepient"
