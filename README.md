@@ -4,7 +4,7 @@ A. Project description
 
 
 
-1 Sets up a database to hold the event data
+1. Sets up a database to hold the event data
 
 2. Downloads the event data from the API
 
