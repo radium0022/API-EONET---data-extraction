@@ -100,7 +100,7 @@ for i in fires,storms,landslides:
                 others_data = str(others_data)
             incident_data.append(others_data)
         
-        # Filter data of last 60 days on last month
+        # Filter data on last month
         if last_month in incident_data[9]:
             all_incidents.append(incident_data)
 
