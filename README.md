@@ -6,7 +6,7 @@ The python script available at this link does the following task:
 
 1. Sets up a SQLite database to hold the data
 
-2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API for the last month
+2. Downloads the event data (i.e. wildfires, severe storms, and landslides) from the EONET API from the last month (i.e. events terminated during the last month). 
 
 3. Saves the data to the database
 
@@ -16,12 +16,13 @@ The python script available at this link does the following task:
 
 ## B. Installation
 
-In order to be run the script:
+In order to be run the script, you need:
 
-* The the below python libraries have to be installed
+* Python 3 or later
+
+* The below libraries have to be installed
 
 ```
-
 import json
 
 import requests
@@ -45,9 +46,7 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 
 from email import encoders
-
 ```
-
 
 * The email address of the recepient has te be specified in the variable "email_recepient"
 
@@ -59,5 +58,3 @@ from email import encoders
 ## D. To go further
 
 
-
-## E. Credits
