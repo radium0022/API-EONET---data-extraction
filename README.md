@@ -68,7 +68,7 @@ from email import encoders
 
 ## D. To go further
 
-* If I had more time, I would use functions and or class to give more structure to the code and to make it easier to use (e.g. for data extraction from the API). 
+* If I had more time, I would use functions and / or class to give more structure to the code and to make it easier to use (e.g. to extract the data from the API). 
 
 * I would create additional insights in the report (e.g. plotting the events on a map with basemap or folium using the coordinates).
 
