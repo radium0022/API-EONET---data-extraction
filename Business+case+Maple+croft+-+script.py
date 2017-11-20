@@ -62,7 +62,7 @@ fulldate_last_month = datetime.now() - relativedelta(months=1)
 last_month = fulldate_last_month.strftime("%Y-%m")
 print(last_month)
 
-# 2.3 Data extraction and cleaning 
+# 2.3 Data extraction cleaning and filter last month event
 
 # Json file dictionnary keys
 events_keys = ['id','title','description','link','closed']
@@ -104,7 +104,7 @@ for i in fires,storms,landslides:
         if last_month in incident_data[9]:
             all_incidents.append(incident_data)
 
-# 3. Saves the data to the database & select october events
+# 3. Saves the data to the database
 
 # Transfer data to SQLite database
 for i in all_incidents:
