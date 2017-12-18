@@ -1,4 +1,4 @@
-# Business case script EONET
+# API data extraction - script EONET
 
 ## A. Project description & usage
 
