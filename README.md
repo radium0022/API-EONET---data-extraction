@@ -6,7 +6,7 @@ The script can be found in the below links (2 versions are available, the first 
 
 * https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.py 
 
-* https://github.com/radium0022/business_case_EONET/blob/master/Business%2Bcase%2BMaple%2Bcroft%2B-%2Bscript.ipynb
+* https://github.com/radium0022/API-EONET---data-extraction/blob/master/API_eonet_data_pipeline.ipynb
 
 It does the following task:
 
